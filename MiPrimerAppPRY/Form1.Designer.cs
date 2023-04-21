@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -57,13 +58,14 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(791, 90);
+            this.groupBox1.Size = new System.Drawing.Size(532, 90);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ingreso";
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(238, 28);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -91,13 +93,14 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Location = new System.Drawing.Point(12, 108);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(791, 166);
+            this.groupBox2.Size = new System.Drawing.Size(532, 166);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Gastos Fijos";
             // 
             // textBox4
             // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
             this.textBox4.Location = new System.Drawing.Point(238, 113);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
@@ -106,6 +109,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
             this.textBox3.Location = new System.Drawing.Point(238, 69);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -114,6 +118,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
             this.textBox2.Location = new System.Drawing.Point(238, 23);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -157,13 +162,14 @@
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Location = new System.Drawing.Point(12, 280);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(791, 85);
+            this.groupBox3.Size = new System.Drawing.Size(532, 85);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Gastos Varios";
             // 
             // textBox5
             // 
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
             this.textBox5.Location = new System.Drawing.Point(238, 32);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
@@ -218,6 +224,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Càlculo del mes";
             this.groupBox1.ResumeLayout(false);
