@@ -25,5 +25,20 @@ namespace MiPrimerAppPRY
 
 
         }
+
+        private void cmdGuardar_Click(object sender, EventArgs e)
+        {
+            Guardado ventanaGuardado = new Guardado();
+            ventanaGuardado.ShowDialog();
+        }
+
+        private void cmdCancelar_Click(object sender, EventArgs e)
+        {
+            txtAlquiler.Clear();
+            txtComida.Clear();
+            txtDeposito.Clear();
+            txtImpuestos.Clear();
+            txtJoda.Clear();
+        }
     }
 }

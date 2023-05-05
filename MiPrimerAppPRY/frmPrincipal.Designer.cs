@@ -194,6 +194,7 @@
             this.cmdGuardar.TabIndex = 4;
             this.cmdGuardar.Text = "Guardar";
             this.cmdGuardar.UseVisualStyleBackColor = true;
+            this.cmdGuardar.Click += new System.EventHandler(this.cmdGuardar_Click);
             // 
             // cmdAlacena
             // 
@@ -213,6 +214,7 @@
             this.cmdCancelar.TabIndex = 6;
             this.cmdCancelar.Text = "Cancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
+            this.cmdCancelar.Click += new System.EventHandler(this.cmdCancelar_Click);
             // 
             // frmCalculoDelMes
             // 
