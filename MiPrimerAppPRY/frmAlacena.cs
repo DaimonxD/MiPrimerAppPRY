@@ -26,5 +26,24 @@ namespace MiPrimerAppPRY
         {
 
         }
+
+        private void lblCantidad_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmdCancelar_Click(object sender, EventArgs e)
+        {
+            optAlacena.Checked = false;
+            optBaño.Checked = false;
+            optHeladera.Checked = false;
+            cboProducto.Text = "Ingrese Producto";
+            nudCantidad.Value = 0;
+        }
+
+        private void cmdGuardar_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -46,6 +46,8 @@
             this.cmdAlacena = new System.Windows.Forms.Button();
             this.cmdCancelar = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.lblTotalNum = new System.Windows.Forms.Label();
             this.mrcIngreso.SuspendLayout();
             this.mrcGastosFijos.SuspendLayout();
             this.mrcGastosVarios.SuspendLayout();
@@ -162,7 +164,7 @@
             this.mrcGastosVarios.Controls.Add(this.lblJoda);
             this.mrcGastosVarios.Location = new System.Drawing.Point(12, 280);
             this.mrcGastosVarios.Name = "mrcGastosVarios";
-            this.mrcGastosVarios.Size = new System.Drawing.Size(532, 85);
+            this.mrcGastosVarios.Size = new System.Drawing.Size(535, 72);
             this.mrcGastosVarios.TabIndex = 3;
             this.mrcGastosVarios.TabStop = false;
             this.mrcGastosVarios.Text = "Gastos Varios";
@@ -170,7 +172,7 @@
             // txtJoda
             // 
             this.txtJoda.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
-            this.txtJoda.Location = new System.Drawing.Point(238, 32);
+            this.txtJoda.Location = new System.Drawing.Point(241, 19);
             this.txtJoda.Multiline = true;
             this.txtJoda.Name = "txtJoda";
             this.txtJoda.Size = new System.Drawing.Size(288, 34);
@@ -180,7 +182,7 @@
             // 
             this.lblJoda.AutoSize = true;
             this.lblJoda.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJoda.Location = new System.Drawing.Point(49, 37);
+            this.lblJoda.Location = new System.Drawing.Point(49, 19);
             this.lblJoda.Name = "lblJoda";
             this.lblJoda.Size = new System.Drawing.Size(66, 29);
             this.lblJoda.TabIndex = 0;
@@ -216,11 +218,32 @@
             this.cmdCancelar.UseVisualStyleBackColor = true;
             this.cmdCancelar.Click += new System.EventHandler(this.cmdCancelar_Click);
             // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(190, 355);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(78, 25);
+            this.lblTotal.TabIndex = 7;
+            this.lblTotal.Text = "Total...";
+            // 
+            // lblTotalNum
+            // 
+            this.lblTotalNum.AutoSize = true;
+            this.lblTotalNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalNum.Location = new System.Drawing.Point(272, 355);
+            this.lblTotalNum.Name = "lblTotalNum";
+            this.lblTotalNum.Size = new System.Drawing.Size(0, 25);
+            this.lblTotalNum.TabIndex = 8;
+            // 
             // frmCalculoDelMes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(551, 450);
+            this.Controls.Add(this.lblTotalNum);
+            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.cmdCancelar);
             this.Controls.Add(this.cmdAlacena);
             this.Controls.Add(this.cmdGuardar);
@@ -260,6 +283,8 @@
         private System.Windows.Forms.Button cmdAlacena;
         private System.Windows.Forms.Button cmdCancelar;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label lblTotalNum;
     }
 }
 
