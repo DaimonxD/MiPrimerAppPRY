@@ -1,6 +1,6 @@
 ﻿namespace MiPrimerAppPRY
 {
-    partial class frmAlamerienda
+    partial class frmAlacena
     {
         /// <summary>
         /// Required designer variable.
@@ -57,15 +57,15 @@
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
             // 
-            // Form2
+            // frmAlacena
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(276, 450);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
-            this.Text = "Lamerienda";
+            this.Name = "frmAlacena";
+            this.Text = "Alacena";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);

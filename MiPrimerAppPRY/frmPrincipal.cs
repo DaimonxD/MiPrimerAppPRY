@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace MiPrimerAppPRY
 {
-    public partial class Form1 : Form
+    public partial class frmCalculoDelMes : Form
     {
-        public Form1()
+        public frmCalculoDelMes()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            frmAlamerienda ventanaAlamerienda = new frmAlamerienda();
+            frmAlacena ventanaAlamerienda = new frmAlacena();
 
             ventanaAlamerienda.ShowDialog();
 

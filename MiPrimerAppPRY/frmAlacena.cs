@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MiPrimerAppPRY
 {
-    public partial class frmAlamerienda : Form
+    public partial class frmAlacena : Form
     {
-        public frmAlamerienda()
+        public frmAlacena()
         {
             InitializeComponent();
         }
